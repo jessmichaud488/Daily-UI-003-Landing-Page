@@ -1,0 +1,97 @@
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  padding-top: 20px;
+}
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: rgb(237, 191, 239);
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: rgb(250, 250, 210);
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.inner-one {
+  float: right;
+  margin: 0px 0px 75px 89px;
+  width: 622px;
+  height: 348px;
+  background-color: rgb(110, 117, 112);
+}
+
+.inner-two {
+  float: left;
+  margin: 3px 88px 76px -89px;
+  width: 622px;
+  height: 352px;
+}
+
+.bottom-one {
+  margin-top: -1050px;
+  margin-left: 100px;
+  background-color: rgb(250, 250, 210);
+  width: 622px;
+  height: 100px;
+}
+
+/*.bottom-one p {
+  font-family: 'Libre Baskerville', serif;
+  color: rgb(110, 117, 112);
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}*/
+
+.bottom-two{
+  margin-top: -249px;
+  margin-right: 275px;
+  background-color: rgb(110, 117, 112);
+  width: 622px;
+  height: 100px;
+}
+
+#headline-one {
+  color: rgb(110, 117, 112);
+  font-size: 108px;
+  margin-left: 500px;
+  margin-bottom: 550px;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  overflow: hidden;
+}
+
+#headline-two {
+  color: rgb(110, 117, 112);
+  font-size: 108px;
+  margin-right: 500px;
+  margin-bottom: 550px;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  overflow: hidden;
+}
+
+p {
+  font-family: 'Libre Baskerville', serif;
+  color: rgb(250, 250, 250);
+}

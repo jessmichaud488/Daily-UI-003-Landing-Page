@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="carousel.css" rel="stylesheet" type="text/css" />
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <div class="split left">
+      <h1 id="headline-one">Sweet</h1>
+    <div class="centered">
+      <div class="centered inner-one">
+          <div id="home" class="tabcontent">
+            <h2>Welcome!</h2>
+            <p>Check out some of our work flashing before your eyes on the right!</p>
+          </div>
+
+          <div id="menu" class="tabcontent">
+            <h2>We offer:</h2>
+              <ul>
+                <li>Cupcakes (mini, one person, or made for two sizes!)</li>
+                <li>Macarons</li>
+                <li>Brownies and Bars</li>
+                <li>Truffles</li>
+              </ul>
+            <p>During the winter holidays, we offer a bevy of seasonal pies and sweet perfect for entertaining!</p>
+            <br>
+            <p>We are always happy to take special and bulk orders too!</p>
+          </div>
+
+          <div id="about" class="tabcontent">
+            <p>We are a small, artisanal bakery specializing in cupcakes and small pastries. We love any reason to add unique decorations or fondant sculpture and 
+	          are passionate about using only natural ingredients, right down to our 
+	          food decorations, coloring and dyes!</p>
+            </div>
+
+          <div id="contact" class="tabcontent">
+            <h2>Sweet Treats is located at:</h2>
+            <p>439 Main St</p>
+            <p>Weymouth, MA 02188</p>
+            <p>(781)-555-5555</p>
+          </div>
+      
+        <button class="tablink" onclick="openTab('Home', this)" id="defaultOpen">Home</button>
+        <button class="tablink" onclick="openTab('Menu', this)">Menu</button>
+        <button class="tablink" onclick="openTab('About', this)">About</button>
+        <button class="tablink" onclick="openTab('Contact', this)">Contact</button>
+      </div>
+    </div>
+    <div class="bottom-one">
+    </div>
+  </div>
+
+<div class="split right">
+    <h1 id="headline-two">Treats</h1>
+  <div class="centered">
+    <div class="centered inner-two">
+        <div class="cupcakeSlides fade">
+          <img src="images/pinkcupcake.jpg">
+        </div>
+
+        <div class="cupcakeSlides fade">
+          <img src="images/rainbowcupcakes.jpg">
+        </div>
+
+        <div class="cupcakeSlides fade">
+          <img src="images/earscupcakes.jpeg">
+        </div>
+
+        <div class="cupcakeSlides fade">
+          <img src="images/mermaidcupcakes.jpg">
+        </div>
+
+        <div class="cupcakeSlides fade">
+          <img src="images/sparklycupcakes.png">
+        </div>
+  </div>
+    </div>
+<br>
+      <div class="bottom-two">
+      </div>
+    </div>
+  </div>
+</div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="tabs.js"></script>
+  </body>
+</html>
