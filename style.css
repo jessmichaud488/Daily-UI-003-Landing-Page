@@ -31,7 +31,7 @@
 }
 
 .inner-one {
-  float: right;
+  //float: right;
   margin: 0px 0px 75px 89px;
   width: 622px;
   height: 348px;
@@ -94,4 +94,9 @@
 p {
   font-family: 'Libre Baskerville', serif;
   color: rgb(250, 250, 250);
+  text-align: center;
+}
+
+ul {
+  text-align: center;
 }

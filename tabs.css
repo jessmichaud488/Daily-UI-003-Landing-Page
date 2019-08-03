@@ -1,15 +1,25 @@
 /* Style the tab buttons */
 .tablink {
-  margin-top: -300px;
   background-color: rgb(110, 117, 112);
   color: white;
-  float: left;
+  //float: left;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
   width: 25%;
+}
+
+#tabDiv {
+  display: block;
+  width: 100vw;
+  margin-top: -300px;
+  //margin-right: 50px;
+}
+
+#tabContentDiv {
+  display: block;
 }
 
 /* Change background color of buttons on hover */
@@ -22,7 +32,7 @@
   font-family: 'Libre Baskerville', serif;
   color: white;
   display: none;
-  padding: 50px;
+//padding: 50px;
   text-align: center;
 }
 
